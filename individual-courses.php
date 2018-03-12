@@ -30,7 +30,7 @@ get_header(); ?>
 	   			</div>
 			    <div class="col-lg-2 col-xs-12">
 	   				<h5 class="text-center course-name">Course Price</h5>
-	   				<p class="text-center"><?php echo $courses->price;?>A$</p>
+	   				<p class="text-center"><?php echo $courses->price;?>AU$</p>
 	   			</div>
 	   			<div class="col-lg-2 col-xs-12 text-center">
 	   				<a class="btn btn-primary btn-md js-scroll-trigger book-now-btn" href="/book-now">

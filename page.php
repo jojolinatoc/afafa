@@ -7,21 +7,20 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<div class="container">
+		<div class="row">
+			<?php
+			// Start the loop.
+			while ( have_posts() ) : the_post();
 
-		<?php
-		// Start the loop.
-		while ( have_posts() ) : the_post();
+				// Include the page content template.
+				get_template_part( 'template-parts/content', 'page' );
 
-			// Include the page content template.
-			get_template_part( 'template-parts/content', 'page' );
-
-		endwhile;
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+			endwhile;
+			?>
+	
+		</div>
+	</div>
 
 <?php
 get_footer();

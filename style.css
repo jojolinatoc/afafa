@@ -1000,7 +1000,6 @@ footer{
      font-size: 14px;
 }
 
-/** Homepage **/
 .book-now{
 	padding: 25px 30px;
 	background: rgba(0, 0, 0, .4);
@@ -1128,6 +1127,9 @@ footer{
 .courses-wrapper, .contact-wrapper, .faq-wrapper, .book-now-wrapper{
 	margin:36px 0;
 }
+.blog-wrapper{
+	margin:70px 0;	
+}
 #courses{
 	margin-bottom: 50px;
 }
@@ -1144,12 +1146,6 @@ footer{
 	border-top: solid 1px #ccc;
 	padding-top:20px;
 }
-body {
-  color: #6a6c6f;
-  background-color: #f1f3f6;
-  margin-top:30px;
-}
-
 .container {
   max-width: 960px;
 }
@@ -1219,9 +1215,44 @@ body {
 box-shadow: 2px 4px 27px -8px rgba(0,0,0,1);
 padding: 20px;
 }
-.courses-list .course-name{
+.course-name{
 	font-weight: bold;
 	color:#D9271F;
 }
 
-
+.posted-on{
+	font-size: 13px;
+    font-style: italic;
+}
+.search-field{
+	padding: 3px 10px !important;
+	outline: none;
+}
+.search-field:focus{
+	border: 1px solid #D9271F !important;
+}
+.search-submit{
+	border: 1px solid #D9271F !important;
+	background: #D9271F !important;
+	color: #fff !important;
+	font-size: 16px !important;
+    padding: 7px 10px !important;
+}
+.widget-title{
+	font-size: 20px;
+}
+.comments-title{
+	font-size: 18px;
+}
+.cat-links, .comments-title{
+	display: none;
+}
+.entry-content{
+	padding: 30px 0 0 0;
+}
+.search-page-header{
+	margin-top:70px;
+}
+.not-found-wrapper, .archive-wrapper{
+	margin: 70px 0;
+}
